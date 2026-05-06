@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+    <title>Interface - Auth</title>
+
+    <script>
+        alert('Сделано и слито автором "YOA" (RAGEMP.PRO)');
+        // Чтобы удалить окно ( удалите все содержание и тэги <script> содержание < /script>)
+    </script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="auth">
+    
+    <div class="anim-vert"></div>    
+    <div class="auth-block">
+        <form action="">
+            <h2 class="auth__header">Авторизация</h2>
+            <input class="auth__input auth-usr" type="email" placeholder="Введите ваш Email">
+            <input class="auth__input auth-key" type="password" placeholder="Введите ваш пароль">
+
+            <div class="auth-links">
+                <p>Еще нет <a href="#" class="auth__link" id="auth-tab">аккаунта?</a></p>
+                <button class="auth__btn" id="el"><span class="show__me" id="show-me">Авторизоваться</span> <img src="img/arrow-suc.svg" alt="fucking arroww"></a>
+            </div>
+    </form>
+    </div>
+</div>
+
+<div id="reg">
+    <div class="anim-vert2"></div>
+
+    <div class="auth-block">
+        <form action="">
+            <h2 class="auth__header">Регистрация</h2>
+
+            <input class="auth__input auth-usr" id="log-in" type="text" placeholder="Введите ваш логин">
+            <input class="auth__input auth-email" id="email" type="email" placeholder="Введите ваш E-mail">
+            <input class="auth__input auth-key" id="password" type="password" placeholder="Введите ваш пароль">
+            <input class="auth__input auth-key" id="r-password" type="password" placeholder="Повторите пароль">
+
+            <div class="auth-links">
+                <p>Уже есть <a href="#" class="auth__link" id="auth-av">аккаунт?</a></p>
+                <button class="auth__btn" id="el">Зарегистрироваться<img src="img/arrow-suc.svg" style="margin-left: 10px;" alt="fucking arroww"></a>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+
+    <script src="js/app.js"></script>
+</body>
 </html>
